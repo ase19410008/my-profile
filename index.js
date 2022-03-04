@@ -4,7 +4,7 @@ function footerDate() {
     const month = today.getMonth() + 1;
     const day = today.getDate();
     // const date = "&copy;" + year + "年" + month + "月" + day + "日";
-    const date = `&copy;${year}年${month}月${day}`;
+    const date = `test &copy;${year}年${month}月${day}`;
     document.getElementById("footer").innerHTML = date;
   }
   
