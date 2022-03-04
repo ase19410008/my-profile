@@ -3,7 +3,8 @@ function footerDate() {
     const year = today.getFullYear();
     const month = today.getMonth() + 1;
     const day = today.getDate();
-    const date = "&copy;" + year + "年" + month + "月" + day + "日";
+    // const date = "&copy;" + year + "年" + month + "月" + day + "日";
+    const date = `&copy;${year}年${month}月${day}`;
     document.getElementById("footer").innerHTML = date;
   }
   
